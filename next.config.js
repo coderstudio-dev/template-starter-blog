@@ -85,3 +85,7 @@ module.exports = withBundleAnalyzer({
     return config
   },
 })
+
+module.exports = {
+  output: 'standalone',
+};
